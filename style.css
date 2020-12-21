@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     background-color: #ecf0f1;
     color: #2c3e50;
     max-width: 100%;
@@ -15,6 +16,7 @@ body {
 .wrapper {
     max-width: 1600px;
 }
+
 .header {
     position: relative;
     background: #7f8c8d;
@@ -118,8 +120,9 @@ body {
     text-align: left;
     font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1.5em;
     padding: 0 10px;
+    text-align: justify;
 }
 
 .info-lines {
@@ -127,18 +130,31 @@ body {
 }
 
 .description-paragraph {
-    text-align: justify;
     line-height: 1.5em;
 }
 
 /* Skills section styling */
+.skills {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.skills-info {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.skills-group {
+    font-weight: bold;
+    font-size: large;
+}
 
 .skill-icon {
-    /* height: 100px; */
-    /* width: 100%; */
-    font-size: 100px;
-    /* display: inline; */
+    font-size: 200px;
 }
+
 
 /* Portfolio section styling */
 .gallery {
@@ -148,7 +164,7 @@ body {
     align-content: center;
 }
 
-.pic{
+.pic {
     width: 300px;
     height: 300px;
     padding: 10px;
