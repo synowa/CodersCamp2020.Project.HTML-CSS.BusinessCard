@@ -12,6 +12,9 @@ body {
     max-width: 100%;
 }
 
+.wrapper {
+    max-width: 1600px;
+}
 .header {
     position: relative;
     background: #7f8c8d;
@@ -38,16 +41,13 @@ body {
     padding: 0 10px;
     display: inline-block;
     height: 80px;
-    line-height: 5em ;
+    line-height: 5em;
     list-style: none;
     text-transform: uppercase;
     font-weight: bold;
     transition: .5s;
 }
 
-.sections {
-    /* margin: 80px 0 0; */
-}
 .section {
     position: relative;
     margin: 0 auto;
@@ -64,6 +64,8 @@ body {
     max-width: 1600px;
     margin: 0 auto;
 }
+
+/* About section styling */
 
 .about {
     background: url(./img/balticSea.JPG) no-repeat center center;
@@ -126,12 +128,28 @@ body {
 
 .description-paragraph {
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.5em;
 }
+
+/* Skills section styling */
 
 .skill-icon {
     /* height: 100px; */
     /* width: 100%; */
     font-size: 100px;
     /* display: inline; */
+}
+
+/* Portfolio section styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.pic{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
 }
